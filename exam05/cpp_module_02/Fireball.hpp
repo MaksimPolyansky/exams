@@ -1,0 +1,19 @@
+//
+// Created by heusebio on 02.05.2021.
+//
+
+#ifndef FIREBALL_HPP
+#define FIREBALL_HPP
+
+#include "ASpell.hpp"
+
+class Fireball : public ASpell
+{
+public:
+    Fireball();
+    ~Fireball();
+
+    virtual ASpell *clone() const;
+};
+
+#endif //FIREBALL_HPP
